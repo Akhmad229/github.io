@@ -1,0 +1,281 @@
+@import "http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css";
+@media(min-width: 1024px) {
+	#test {
+	background-image: url(image_2.png);
+	height: 159px;
+	}
+	#pretest {
+	height: 180px;
+	}
+	#nav li {
+	display: inline-block;
+	font-family: sans-serif;
+	font-size: 24px;
+	
+	margin-left: 70px;
+}
+.mycolumn {
+	float: left;
+	max-width: 50%;
+	margin-top: 6px;
+	padding: 16px;
+}
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.splash {
+    height: 90%;
+    width: 90%;
+    margin: 3% 5%;
+    background: white;
+    padding: 15px 200px 15px 200px;
+    box-sizing: border-box;
+}
+
+.splash > img {
+    height: 100%;
+    width: 100%;
+}
+}
+@media(max-width: 1024px) {
+	#test {
+	background-image: url(image.png);
+	height: 119px;
+
+	}
+	#pretest {
+	height: 250px;
+    }
+    #nav li {
+	display: inline-block;
+	font-family: sans-serif;
+	font-size: 24px;
+	
+	margin-left: 70px;
+}
+.mycolumn {
+	float: left;
+	max-width: 50%;
+	margin-top: 6px;
+	padding: 16px;
+}
+.splash {
+    height: 90%;
+    width: 90%;
+    margin: 3% 5%;
+    background: white;
+    padding: 15px 200px 15px 200px;
+    box-sizing: border-box;
+}
+
+.splash > img {
+    height: 100%;
+    width: 100%;
+}
+}
+
+@media(max-width: 768px){
+	#test {
+	background-image: url(image_3.png);
+	height: 93px;
+
+	}
+	#pretest {
+		height: 130px;
+	}
+	#nav li {
+	display: inline-block;
+	font-family: sans-serif;
+	font-size: 22px;
+	
+	margin-left: 30px;
+}
+.row {
+	width: 100%;
+	height: auto;
+}
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.mycolumn {
+	float: left;
+	max-width: 100%;
+	margin-top: 6px;
+	padding: 16px;
+}
+.splash {
+    height: 90%;
+    width: 90%;
+    margin: 3% 5%;
+    background: white;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.splash > img {
+    height: 100%;
+    width: 100%;
+}
+}
+@media(max-width: 425px){
+	#test {
+	background-image: url(image_4.png);
+	height: 51px;
+	}
+	#pretest {
+		height: 90px;
+		padding-left:0;
+		margin-left:0;
+	}
+	#nav li {
+	display: inline-block;
+	font-family: sans-serif;
+	font-size: 15px;
+	
+	margin-left: 18px;
+	margin-right: 18px;
+
+}
+.row {
+	width: 100%;
+	height: auto;
+}
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.mycolumn {
+	float: left;
+	max-width: 100%;
+	margin-top: 6px;
+	padding: 16px;
+}
+
+#nav {
+	padding-left: 0;
+}
+.splash {
+    height: 90%;
+    width: 90%;
+    margin: 3% 5%;
+    background: white;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.splash > img {
+    height: 100%;
+    width: 100%;
+}
+}
+#nav a {
+	text-decoration: none;
+	color: aliceblue;
+
+}
+
+.hover {
+	opacity: 0.3;
+	transition: 360ms ease-in-out;
+}
+#header {
+	height: 45px;
+	background-color: #dff9fb;
+}
+html {
+	height: 100%;
+}
+body {
+
+	height: 100%;
+	background: linear-gradient(to right, #78e08f, #b71540);
+}
+footer {
+	width: 100%;
+	color: white;
+	text-align: center;
+	margin:8px 0px 0px 0px;
+	height: 85px;
+	background: linear-gradient(to right, #78e08f, #b71540);
+}
+	.nav-bar {
+	display: inline-block;
+	background-color:#b71540;
+	padding-left: 20px;
+	min-width: 100%;
+	height: 47px;
+}
+
+.thumbnail {
+	border: 1px solid #fbc531;
+	border-radius: 10px;
+	padding: 5px;
+	border-color: black;
+}
+.thumbnail:hover {
+	box-shadow: 0 0 6px 1px #0652DD;
+	cursor: pointer;
+}
+input[type=text], select, textarea {
+	min-width: 100%;
+	padding: 12px;
+	border:1px solid #ccc;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+}
+input[type=submit] {
+	background-color: #34e7e4;
+	color: white;
+	padding: 12px 20px;
+	border:none;
+	cursor: pointer;
+}
+input[type=submit]:hover {
+	background-color: #05c46b;
+}
+.containerc {
+	background-color: #ffda79;
+	padding: 10px;
+}
+
+@media screen and (max-width: 600px) {
+	.column, input[type=submit] {
+		width: 100%;
+		margin-top: 0;
+	}
+}
+
+.splash-container {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: fixed;
+    background: rgba(0, 0, 0, .3);
+    display: none;
+}
+
+
+
+.splash-opened {
+    overflow: hidden;
+}
+
+.lightbox {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.lightbox > img {
+    width: 33%;
+    height: auto;
+}

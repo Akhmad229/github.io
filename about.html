@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="anonymous">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="jquery-3.3.1.js"></script>
+	<script src="JV.js"></script>
+	 <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.js"></script>
+	<link rel="stylesheet" href="01.css">
+    <meta charset="UTF-8">
+    <title>About Gallery</title>
+</head>
+<body>
+   <header>
+      <div id="pretest">
+
+		    <div class="header-logo" id="test"></div>
+		
+            <div class="container" id="na-bar">
+                <ul id="nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+	    </div>
+   </header>
+   <article>
+    <br><br><br>
+     <h1>Let me discuss about the website a  bit more</h1>
+      <p id="demo" style="font-size: 36px"></p>
+       <script>
+           var txt = '{"name":"My name is Akhmad Badalov. I collected images uploaded on my website from facebook providers of mine. I used those pictures in first individual assignment which was dedicated to our imagination and ability to design as a personal web page", "age":"This is written in JSON and converted into simple text form using JSON.parse() function", "city":"New York"}'
+           var obj = JSON.parse(txt);
+           document.getElementById("demo").innerHTML = obj.name + ". " + obj.age + "." + obj.city;
+       </script>
+   </article>
+   <footer>
+       	<pre style="margin:0px 0px 0px 0px">
+   			Uzbekistan
+   			Surkhandarya region 
+   			Denov city 
+   			9 Ihtiyor str.
+   		</pre>
+   </footer>
+    
+</body>
+</html>
